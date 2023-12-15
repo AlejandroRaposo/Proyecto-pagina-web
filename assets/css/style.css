@@ -1,0 +1,147 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(191, 233, 247);
+}
+
+.inicioCabecera {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+nav {
+  display: flex;
+  align-content: flex-start;
+  background-color: aquamarine;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+#cabecera {
+  margin: 1%;
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+.cartas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.chat {
+  min-height: 40rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.valoraciones {
+  display: flex;
+  align-items: center;
+  text-justify: space-around;
+}
+
+.retrato {
+  border-radius: 50%;
+  max-width: 40%;
+  max-height: 20%;
+}
+
+.login {
+  height: 64px;
+  width: 64px;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.imagen2 {
+  max-width: 75%;
+  max-height: 50%;
+}
+
+.imagen3 {
+  max-width: 30%;
+  max-height: 20%;
+}
+
+.dropdown-menu {
+  background-color: lightblue;
+}
+
+.d-block {
+  justify-content: center;
+  margin: 1%;
+  width: 80%;
+  height: 20em;
+}
+
+.d-link {
+  margin: 1%;
+  width: 80%;
+  height: 20em;
+}
+
+.slide {
+  margin: auto;
+  max-width: 70rem;
+  width: 80%;
+  height: 10%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.redes {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-group {
+  flex-wrap: nowrap;
+  padding: 1ex;
+  margin-right: 1%;
+}
+
+.buscador {
+  margin-left: 1ex;
+  margin-right: 1%;
+}
+
+.contacto {
+  background-color: purple;
+  margin-left: 40%;
+}
+
+#offcanvasNavbar2Label {
+  background-color: lightblue;
+  padding: 1ex;
+  border: solid;
+  border-radius: 25%;
+}
+.offcanvas-start {
+  background-color: aquamarine;
+}
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
