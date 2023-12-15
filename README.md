@@ -1,3 +1,3 @@
-#Proyecto pagina web para diseño
+Proyecto pagina web para diseño
 
 Esta página usa PHP
