@@ -26,6 +26,10 @@
 
       <h1>Ya casi has acabado, tan solo tienes que activar la cuenta a través del email que te hemos enviado.</h1>
     </div>
+     
+    <script type="text/javascript">
+       setTimeout(function(){ location.href="pagina principal.php";}, 5000);
+    </script>
 
 
 
