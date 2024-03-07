@@ -46,10 +46,17 @@ h1 {
 
 .cartas {
   display: flex;
-  justify-items: center;
+  justify-content: space-around;
   align-items: center;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.card {
+  align-self: center;
+  align-items: center;
+  justify-items: center;
+  justify-self: center;
 }
 
 .d-block {
@@ -142,6 +149,10 @@ h1 {
   border-radius: 40%;
   max-width: 250px;
   padding: 5px;
+}
+
+.btn-check {
+  color: black;
 }
 
 .inicioCabecera {
