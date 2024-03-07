@@ -39,10 +39,10 @@
 
         <div class="row g-3 align-items-center justify-content-center">
           <div class="col-auto">
-            <label for="dni" class="col-form-label">DNI:</label>
+            <label for="dni" class="col-form-label">DNI/NIF:</label>
           </div>
           <div class="col-auto">
-            <input type="dni" id="dni" class="form-control" aria-describedby="dni" required>
+            <input type="text" id="dni" class="form-control" aria-describedby="dni" required>
           </div>
         </div>
         <br />

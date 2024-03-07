@@ -86,7 +86,7 @@
         </div>
 
         <div class="col-auto">
-          <a class="btn btn-success" role="button" href="cita confirmada.php">Confirmar cita</a>
+          <a class="btn btn-success boton" role="button" href="cita confirmada.php">Confirmar cita</a>
         </div>
 
       </div>

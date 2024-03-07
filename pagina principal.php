@@ -35,8 +35,8 @@
 
           <button class="reproductor-button" onClick="document.getElementById('player').play()"><img class="reproductor-img" src="assets/img/jugar.png" alt="play" autor="nawicon">Play</img></button>
           <button class="reproductor-button" onClick="document.getElementById('player').pause()"><img class="reproductor-img" src="assets/img/pausa.png" alt="pausar" autor="nawicon">Pause</img></button>
-          <button class="reproductor-button" onClick="document.getElementById('player').volume+=O.l"><img class="reproductor-img" src="assets/img/sube-el-volumen.png" alt="subir volumen" autor="paonkz">Volumen +</img></button>
-          <button class="reproductor-button" onClick="document.getElementById('player').volume-=O.l"><img class="reproductor-img" src="assets/img/volumen-bajo.png" alt="bajar volumen" autor="paonkz">Volumen -</img></button>
+          <button class="reproductor-button" onClick="document.getElementById('player').volume+=O.l"><img class="reproductor-img" src="assets/img/sube-el-volumen.png" alt="subir volumen" autor="paonkz">Vol +</img></button>
+          <button class="reproductor-button" onClick="document.getElementById('player').volume-=O.l"><img class="reproductor-img" src="assets/img/volumen-bajo.png" alt="bajar volumen" autor="paonkz">Vol -</img></button>
         </div>
         <div class="transc">
         <button type="button" id="trans_audio">Transcripción del audio</button>
@@ -59,7 +59,7 @@
         
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <a href="contenido.php"><img src="assets/img/alimentacion.jpg" class="d-block w-100" alt="Frutas y verduras"></a>
+            <a href="contenido.php"><img src="assets/img/alimentacion.jpg" class="d-block w-100" alt="Frutas y verduras" autor="Brooke Lark"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>¿Quiénes somos?</h5>
               <p>Somos una empresa de consultas médicas online.</p>
@@ -67,14 +67,14 @@
             </div>
           </div>
           <div class="carousel-item">
-            <a href="contenido.php"><img src="assets/img/medicamentos.jpg" class="d-block w-100" alt="Pastillas"></a>
+            <a href="contenido.php"><img src="assets/img/medicamentos.jpg" class="d-block w-100" alt="Pastillas de diferentes colores" autor="Raimond Klavins"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>¿Por qué creamos Salud express?</h5>
               <p>Por la excesiva lista de espera de la salud pública.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <a href="contenido.php"><img src="assets/img/estetoscopio.jpg" class="d-block w-100" alt="Estetoscopio verde"></a>
+            <a href="contenido.php"><img src="assets/img/estetoscopio.jpg" class="d-block w-100" alt="Estetoscopio verde sobre mesa de plástico blanco" autor="Derek Finch"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>Nuestros objetivos</h5>
               <p>Disminuir la espera para acceder a consultas médicas de calidad.</p>
@@ -108,21 +108,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <a href="contenido.php"><img src="assets/img/alimentacion.jpg" class="d-block w-100" alt="Frutas y verduras"></a>
+            <a href="contenido.php"><img src="assets/img/alimentacion.jpg" class="d-block w-100" alt="Frutas y verduras" autor="Brooke Lark"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>Oferta alimentación</h5>
               <p>Pregunta a nuestro experto para diseñar una dieta personalizada.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <a href="contenido.php"><img src="assets/img/medicamentos.jpg" class="d-block w-100" alt="Pastillas"></a>
+            <a href="contenido.php"><img src="assets/img/medicamentos.jpg" class="d-block w-100" alt="Pastillas de diferentes colores" autor="Raimond Klavins"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>Nuevos medicamentos</h5>
               <p>Comprueba la nueva oferta en medicamentos.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <a href="contenido.php"><img src="assets/img/estetoscopio.jpg" class="d-block w-100" alt="Estetoscopio verde"></a>
+            <a href="contenido.php"><img src="assets/img/estetoscopio.jpg" class="d-block w-100" alt="Estetoscopio verde sobre mesa de plástico blanco" autor="Derek Finch"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>Consulta anual</h5>
               <p>Realiza tu consulta anual un 15% más barato.</p>
@@ -155,21 +155,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <a href="contenido.php"><img src="assets/img/pastillas2.jpg" class="d-block w-100" alt="Frutas y verduras"></a>
+            <a href="contenido.php"><img src="assets/img/pastillas2.jpg" class="d-block w-100" alt="Bote de pastillas con las pastillas derramadas" autor="pina messina"></a>
             <div class="carousel-caption  d-sm-block bg-light">
               <h5>Nuevo tratamiento para la alergia primaveral</h5>
               <p>El nuevo medicamento promete un alivio mayor de los síntomas.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <a href="contenido.php"><img src="assets/img/medicamentos.jpg" class="d-block w-100" alt="Pastillas"></a>
+            <a href="contenido.php"><img src="assets/img/medicamentos.jpg" class="d-block w-100" alt="Pastillas de diferentes colores" autor="Raimond Klavins"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>Avances en la investigación</h5>
               <p>La universidad de Harvard a realizado un nuevo estudio.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <a href="contenido.php"><img src="assets/img/estetoscopio.jpg" class="d-block w-100" alt="Estetoscopio verde"></a>
+            <a href="contenido.php"><img src="assets/img/estetoscopio.jpg" class="d-block w-100" alt="Estetoscopio verde sobre mesa de plástico blanco" autor="Derek Finch"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>Consulta anual</h5>
               <p>Realiza tu consulta anual un 15% más barato.</p>
@@ -202,21 +202,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <a href="contenido.php"><img src="assets/img/vacunas.jpg" class="d-block w-100" alt="Frutas y verduras"></a>
+            <a href="contenido.php"><img src="assets/img/vacunas.jpg" class="d-block w-100" alt="Mano sosteniendo una botella de vacuna con etiqueta blanca y azul" autor="Spencer Davis"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>Comienza la vacunación</h5>
               <p>Pide cita para vacunarte de la gripe.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <a href="contenido.php"><img src="assets/img/medicamentos.jpg" class="d-block w-100" alt="Pastillas"></a>
+            <a href="contenido.php"><img src="assets/img/medicamentos.jpg" class="d-block w-100" alt="Pastillas de diferentes colores" autor="Raimond Klavins"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>Nuevos medicamentos</h5>
               <p>Comprueba la nueva oferta en medicamentos.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <a href="contenido.php"><img src="assets/img/estetoscopio.jpg" class="d-block w-100" alt="Estetoscopio verde"></a>
+            <a href="contenido.php"><img src="assets/img/estetoscopio.jpg" class="d-block w-100" alt="Estetoscopio verde sobre mesa de plástico blanco" autor="Derek Finch"></a>
             <div class="carousel-caption d-sm-block bg-light">
               <h5>Consulta anual</h5>
               <p>Realiza tu consulta anual un 15% más barato.</p>

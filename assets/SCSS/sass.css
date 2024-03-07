@@ -104,13 +104,8 @@ h1 {
 }
 
 .carousel-control :hover {
-  background-color: #878787;
-}
-.carousel-control :hover .carousel-control-next {
-  background-color: #878787;
-}
-.carousel-control :hover .carousel-control-prev {
-  background-color: #878787;
+  transition: 2s;
+  background-color: #5fb3ce;
 }
 
 .carousel-control-prev {
@@ -145,16 +140,94 @@ h1 {
 }
 
 #trans_audio {
+  border: 3px black solid;
   margin-bottom: 1%;
   border-radius: 40%;
   max-width: 250px;
   padding: 5px;
 }
 
-.btn-check {
+.horario {
+  border: 3px solid black;
+  border-radius: 20%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.boton-hora {
+  background-color: #d4ebf2;
   color: black;
 }
 
+@media screen and (max-width: 640px) {
+  .offcanvasNavbar2 {
+    width: 50vh;
+    height: 100vh;
+  }
+  .card {
+    width: 16rem !important;
+  }
+  video {
+    width: 280px;
+  }
+  .carousel-control-prev {
+    margin-top: 50%;
+    margin-left: 1%;
+    height: 25%;
+    width: 15%;
+    border-radius: 50%;
+    background-color: #bababa;
+    opacity: 0.8;
+  }
+  .carousel-control-next {
+    margin-top: 50%;
+    margin-right: 1%;
+    height: 25%;
+    width: 15%;
+    border-radius: 50%;
+    background-color: #bababa;
+    opacity: 0.8;
+  }
+  .reproductor {
+    display: flex;
+    border: 2px solid blue;
+    background-color: aqua;
+    border-radius: 20%;
+    max-width: 30%;
+    min-width: 250px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 1%;
+    justify-content: center;
+  }
+  .reproductor-button {
+    border-radius: 40%;
+    max-width: 50px;
+    padding: auto;
+    margin: 5px;
+  }
+  .reproductor-img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .transc {
+    display: flex;
+    border-radius: 20%;
+    max-width: 30%;
+    min-width: 200px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 1%;
+    justify-content: center;
+  }
+  #trans_audio {
+    margin-bottom: 1%;
+    border-radius: 40%;
+    max-width: 250px;
+    padding: 5px;
+  }
+}
 .inicioCabecera {
   display: flex;
   background-color: aqua;
