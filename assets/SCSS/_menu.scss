@@ -1,0 +1,63 @@
+.inicioCabecera {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  
+  nav {
+    display: flex;
+    align-content: flex-start;
+    background-color: aquamarine;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  #cabecera {
+    margin: 1%;
+    border: 2px solid;
+    border-radius: 20px;
+  }
+
+  .dropdown-menu {
+    background-color: lightblue;
+  }
+
+  .buscador {
+    margin-left: 1ex;
+    margin-right: 1%;
+  }
+
+  #offcanvasNavbar2Label {
+    background-color: lightblue;
+    padding: 1ex;
+    border: solid;
+    border-radius: 25%;
+  }
+  .offcanvas-start {
+    background-color: aquamarine;
+  }
+  
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+  }
+
+  .login {
+    height: 64px;
+    width: 64px;
+    padding: 5px;
+    border-radius: 100%;
+  }
+
+  .boton {
+    background-color:#12633C;
+  }
+
+  .dropdown-toggle-split {
+    background-color:#12633C;
+  }

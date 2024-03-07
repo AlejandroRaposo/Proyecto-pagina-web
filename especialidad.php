@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salud express</title>
-  <link rel="shortcut icon" href="assets/img/caduceo16.png" type="image/x-icon">
+  <title>Salud express - especialidad</title>
+  <link rel="shortcut icon" href="assets/img/caduceo16.png" type="image/x-icon" autor="Freepik">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -24,14 +24,14 @@
     <div>
       <div class="container border border-black rounded text-center">
         <br><br>
-        <img class="img-fluid imagen2" src="assets/img/recepcion.jpg" alt="">
+        <img class="img-fluid imagen2" src="assets/img/recepcion.jpg" alt="recepción de hospital bien iluminada, cerrada con un cristal con una pequeña ventana para hablar con el recepcionista" author="Martha Dominguez de Gouveia">
         <h1>Atención al cliente</h1>
         <p>Nuestro recepcionista estará siempre encantado de ayudarte si tienes algún problema o no sabes a que especialidad deberías acudir.</p>
         <br>
         <h1>Nuestros empleados en atención al cliente</h1>
         <div class="row cartas">
           <div class="card border-black" style="width: 18rem;">
-            <img src="assets/img/doctor 11.jpg" class="card-img-top img-thumbnail" alt="enfermero sosteniendo una jeringuilla">
+            <img src="assets/img/doctor 11.jpg" class="card-img-top img-thumbnail" alt="Enfermero sosteniendo una jeringuilla" author="Dim Hou">
             <div class="card-body">
               <h5 class="card-title">Carlos Martinez</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">Enfermero</h6>

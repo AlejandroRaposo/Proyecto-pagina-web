@@ -1,0 +1,148 @@
+$color-fondo:rgb(191, 233, 247);
+
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: $color-fondo;
+    
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  .btn-group {
+    flex-wrap: nowrap;
+    padding: 1ex;
+    margin-right: 1%;
+
+  }
+
+  .imagen2 {
+    max-width: 75%;
+    max-height: 50%;
+  }
+  
+  .imagen3 {
+    max-width: 30%;
+    max-height: 20%;
+  }
+
+  .cartas {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .d-block {
+    justify-content: center;
+    
+    width: 80%;
+    height: 20em;
+  }
+  
+  .d-link {
+    margin: 1%;
+    width: 80%;
+    height: 20em;
+  }
+  
+  .slide {
+    margin: auto;
+    max-width: 70rem;
+    width: 80%;
+    height: 10%;
+  }
+
+  .reproductor {
+    display: flex;
+    border: 2px solid blue;
+    background-color: aqua;
+    border-radius: 20%;
+    max-width: 30%;
+    min-width: 380px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 1%;
+    justify-content: center;
+    
+  }
+  
+  .reproductor-button {
+    border-radius: 40%;
+    max-width: 150px;
+    padding: auto;
+    margin: 5px;
+  
+  
+  }
+  
+  .reproductor-img {
+    width: 1rem;
+    height: 1rem;
+  
+  }
+
+
+.carousel-control {
+  :hover {
+    background-color: darken($color: lightgrey, $amount: 30);
+    .carousel-control-next {
+      background-color: darken($color: lightgrey, $amount: 30);
+    }
+    .carousel-control-prev {
+      background-color: darken($color: lightgrey, $amount: 30);
+    }
+  }
+}
+
+
+
+.carousel-control-prev {
+  margin-top: 10%;
+  margin-left: 1%;
+  height: 25%;
+  width: 8%;
+  border-radius: 50%;
+  background-color: darken($color: lightgrey, $amount: 10);
+  opacity: 0.8;
+
+  
+}
+
+
+.carousel-control-next {
+  margin-top: 10%;
+  margin-right: 1%;
+  height: 25%;
+  width: 8%;
+  border-radius: 50%;
+  background-color: darken($color: lightgrey, $amount: 10);
+  opacity: 0.8;
+}
+
+.transc {
+  display: flex;
+  border-radius: 20%;
+  max-width: 30%;
+  min-width: 380px;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 1%;
+  justify-content: center;
+  
+}
+
+#trans_audio {
+  margin-bottom: 1%;
+  border-radius: 40%;
+  max-width: 250px;
+  padding: 5px;
+  
+}

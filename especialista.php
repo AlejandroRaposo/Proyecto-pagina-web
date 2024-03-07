@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salud express</title>
-  <link rel="shortcut icon" href="assets/img/caduceo16.png" type="image/x-icon">
+  <title>Salud express - especialista</title>
+  <link rel="shortcut icon" href="assets/img/caduceo16.png" type="image/x-icon" autor="Freepik">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -18,7 +18,7 @@
 
     <br><br>
     <div class="container text-center">
-      <img src="assets/img/doctor 11.jpg" class="img-thumbnail retrato" alt="">
+      <img src="assets/img/doctor 11.jpg" class="img-thumbnail retrato" alt="Enfermero sosteniendo una jeringuilla" author="Dim Hou">
     </div>
     <br><br>
     <div class="border border-2 rounded border-black text-center bg-success-subtle">
@@ -42,6 +42,11 @@
         </div>
         <div class="border border-success bg-success-subtle">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium inventore, illo aut iste doloribus, molestiae rem repellat et eaque vel, temporibus cumque earum debitis dignissimos dicta. Molestias debitis obcaecati praesentium.</p>
+          <video width="320px" height="320px" controls>
+            <source src="assets/media/Resena3.mp4">
+            <track src="assets/media/Resena3.vtt">
+           
+          </video>
         </div>
       </div>
 

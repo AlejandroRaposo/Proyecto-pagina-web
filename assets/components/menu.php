@@ -1,7 +1,7 @@
 <header id="cabecera">
   
     <div class="inicioCabecera">
-      <a href="pagina principal.php"><img src="assets/img/caduceo.png" alt="Logo Salud express"></a>
+      <a href="pagina principal.php"><img src="assets/img/caduceo.png" alt="Logo Salud express" autor="Freepik"></a>
 
       <div>
         <h2>Salud express</h2>
@@ -9,7 +9,7 @@
       </div>
 
       <div class="dropdown">
-        <img class="login" src="assets/img/perfil.png" alt role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img class="login" src="assets/img/perfil.png" alt role="button" data-bs-toggle="dropdown" aria-expanded="false" autor="Freepik">
         <ul class="dropdown-menu">
           <div class="container">
 

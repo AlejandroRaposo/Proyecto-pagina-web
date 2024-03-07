@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salud express</title>
-  <link rel="shortcut icon" href="assets/img/caduceo16.png" type="image/x-icon">
+  <title>Salud express - crear cuenta</title>
+  <link rel="shortcut icon" href="assets/img/caduceo16.png" type="image/x-icon" autor="Freepik">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/SCSS/sass.css">
 </head>
 
 <body>
@@ -19,20 +19,20 @@
       <form action="cuenta creada.php" method="post">
         <div class="row g-3 align-content-center justify-content-center">
           <div class="col-auto">
-            <label for="exampleFormControlInput1" class="col-form-label">Nombre:</label>
+            <label for="nombre" class="col-form-label">Nombre:</label>
           </div>
           <div class="col-auto">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Alberto" required>
+            <input type="text" class="form-control" id="nombre" placeholder="Alberto" required>
           </div>
         </div>
         <br />
 
         <div class="row g-3 align-items-center justify-content-center">
           <div class="col-auto">
-            <label for="exampleFormControlInput1" class="col-form-label">Usuario:</label>
+            <label for="usuario" class="col-form-label">Usuario:</label>
           </div>
           <div class="col-auto">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Alberto123" required>
+            <input type="text" class="form-control" id="usuario" placeholder="Alberto123" required>
           </div>
         </div>
         <br />
@@ -49,10 +49,10 @@
 
         <div class="row g-3 align-items-center justify-content-center">
           <div class="col-auto">
-            <label for="exampleFormControlInput1" class="col-form-label">Email:</label>
+            <label for="email" class="col-form-label">Email:</label>
           </div>
           <div class="col-auto">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
           </div>
         </div>
         <br />
